@@ -1,7 +1,7 @@
 ```uml
 @startuml
 start
-:weather=天気予報;
+:weather=天気情報;
 if(weather) then (0)
   :快晴です;
  elseif then (1)
@@ -10,7 +10,7 @@ if(weather) then (0)
  :雨です;
  elseif then (その他)
  :不明です;
- elseif
+ else
  end
  @enduml
 ```

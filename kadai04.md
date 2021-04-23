@@ -2,13 +2,13 @@
 @startuml
 start
 :weather=天気情報;
-if(weather) then (0)
+if(weather=0) then ;
   :快晴です;
- elseif then (1)
+ elseif (weather=1) then;
  :曇りです;
- elseif then (2)
+ elseif (weather=2) then;
  :雨です;
- elseif then (その他)
+ elseif (weather=???) then;
  :不明です;
  else
  end

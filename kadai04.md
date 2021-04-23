@@ -6,9 +6,9 @@ if(weather) then (0)
   :快晴です;
  else(1)
  :曇りです;
- else(2)
+ elseif(2)
  :雨です;
- else (その他)
+ elseif(その他)
  :不明です;
  elseif
  end
